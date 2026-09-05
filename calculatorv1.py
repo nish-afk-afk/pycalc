@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+print("welcome to pycalc!!!")
+print("use the command exit in operation prompt to exit pycalc")
+print("use the command reset in operation prompt to restart pycalc")
 num_1 = int(input("enter first number: "))
 
 while True:
