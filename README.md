@@ -9,7 +9,8 @@ A very simple Python-coded terminal calculator.
 3. Multiplication
 4. Modulo (using `%`)
 5. Division
-6. Continuous calculations
+6. square roots (using `sqrt`)
+7. Continuous calculations
 
 ### Commands
 

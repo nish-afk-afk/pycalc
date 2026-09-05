@@ -1,21 +1,33 @@
 #!/usr/bin/python3
+import math 
 try:    
     print("welcome to pycalc!!!")
+
     print("use the command exit in operation prompt to exit pycalc")
     print("use the command reset in operation prompt to restart pycalc")
+
     num_1 = int(input("enter first number: "))
+
+    sqrt_result = 0
+
+    result = 0 
 
     while True:
 
 
         operation = str(input("type operation symbol: "))
-        result = 0
 
         if operation == "exit":
             break
 
         if operation == "reset":
             num_1 = int(input("enter first number: "))
+            continue
+
+        if operation == "sqrt":
+            sqrt_result = math.sqrt(num_1)
+            result = sqrt_result
+            print(result)
             continue
         num_2 = int(input("enter second number: "))
 
