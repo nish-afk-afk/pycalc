@@ -21,7 +21,7 @@ A very simple Python-coded terminal calculator.
 #### Requirements
 
 1. Python 3
-2. Only Windows and Linux are guaranteed to work. Other operating systems may require special dependencies.
+2. Only Windows and Linux are supported. Other operating systems may require special dependencies.
 
 ##### Guide on How to Set Up
 
