@@ -23,7 +23,7 @@ except ValueError:
         except ValueError:
             print("please enter a valid operation")
 
-            if operation != "+" or "-" or "*" or "/" or "sqrt" or "!" or "exit" or "reset": 
+            if operation not in ["+", "-", "*", "/", "%", "!", "perc", "exit", "reset"]: 
                 print("that operation isnt valid or it isnt included in pycalc")  
                 num_1 = float(input("enter first number: "))
                 continue
