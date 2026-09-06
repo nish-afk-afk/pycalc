@@ -29,6 +29,11 @@ try:
             result = sqrt_result
             print(result)
             continue
+
+        if operation == "!":
+            result = math.factorial(num_1)
+            print(result)
+            continue
         num_2 = int(input("enter second number: "))
 
 
