@@ -48,4 +48,8 @@ $added percentages with the  "`perc`" operation
 
 |v1.4.1
 
-$added hotfix for supporting decimals 
+$added hotfix for supporting decimals
+
+|v1.4.2
+
+$added hotfix 
