@@ -28,11 +28,13 @@ try:
             sqrt_result = math.sqrt(num_1)
             result = sqrt_result
             print(result)
+            num_1 = result
             continue
 
         if operation == "!":
             result = math.factorial(num_1)
             print(result)
+            num_1 = result
             continue
         num_2 = int(input("enter second number: "))
 
