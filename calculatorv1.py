@@ -42,7 +42,7 @@ while True:
         continue
 
     if operation == "!":
-        if num_1 < 0:
+        if num_1 < 0 or not num_1.is_integer():
             print("you cant take decimal/negative factorials")
             continue
 
