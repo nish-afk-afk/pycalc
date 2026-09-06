@@ -22,3 +22,6 @@ $added factorials with "`!`" operation
 
 |v.1.3.1
 $fixed factorial bug
+
+|v.1.4
+$added percentages with the  "`perc`" operation 

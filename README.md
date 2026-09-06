@@ -10,7 +10,9 @@ A very simple Python-coded terminal calculator.
 4. Modulo (using `%`)
 5. Division
 6. square roots (using `sqrt`)
-7. Continuous calculations
+7. factorials (using `!`)
+8. percents (using `perc`)
+9. Continuous calculations
 
 ### Commands
 

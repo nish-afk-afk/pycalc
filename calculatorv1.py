@@ -53,6 +53,9 @@ try:
 
         if operation == "%":
             result =  num_1 % num_2
+        
+        if operation == "perc":
+            result = (num_1 / 100) * num_2
 
         print(result)
 
